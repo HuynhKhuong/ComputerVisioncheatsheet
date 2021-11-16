@@ -1,0 +1,9 @@
+#Convert PIL to cv2
+input_image = Image.open("your de").convert('RGB') 
+image = np.array(input_image) 
+image = image[:, :, ::-1].copy()
+
+
+#Convert cv2 to PIL
+image = cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB)
+image = Image.fromarray(new_image)
