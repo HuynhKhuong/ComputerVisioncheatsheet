@@ -3,3 +3,8 @@ This is a MUST if you don't want to get in troubles:
 - 1. Always include python and VSCode in your PATH variable, unless VSCode and Python interpreter can't regconise each other.
 - 2. I've wasted my time trying to install VSCode and Python in other drives like D drive, but it can't work with install opencv or numpy package.
 => You have to install it in default drive in your PC
+
+For installations: open cmd => cd to Python's Scripts dir => install there. The packages are included in the Path variable then your VSCode can recognise them
+If you install openCV => You'd better install this instruction: pip install 
+--upgrade pip
+pip install opencv-python
