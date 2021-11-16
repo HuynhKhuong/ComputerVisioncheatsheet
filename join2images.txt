@@ -1,0 +1,13 @@
+Convert 2 images (with same size) together:
+Check cv2.addWeighted():
+
+arguments:
+1. InputArray 	src1,
+2. double 	alpha,
+3. InputArray 	src2,
+4. double 	beta,
+5. double 	gamma,
+6. OutputArray 	dst,
+7. int 	dtype = -1 
+
+outputs: destination I = saturate(src1*alpha + src1*beta + gamma)	
